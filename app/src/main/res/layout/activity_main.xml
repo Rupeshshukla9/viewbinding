@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Enter your name"
+      android:textSize="20sp"
+      android:id="@+id/tvName" />
+
+  <EditText
+      android:id="@+id/etName"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Enter your name"
+      android:inputType="textPersonName|textCapWords" />
+
+  <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your roll.no"
+        android:textSize="20sp"
+        android:id="@+id/tvRoll.no" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your roll.no"
+        android:id="@+id/etRoll.no"
+        android:inputType="number"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your height"
+        android:textSize="20sp"
+        android:id="@+id/tvHeight"
+        android:inputType="numberDecimal"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your height"
+        android:id="@+id/etHeight"
+        android:inputType="numberDecimal"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="validate"
+        android:textSize="30sp"
+        android:id="@+id/btnValidate"/>
+
+  </LinearLayout
