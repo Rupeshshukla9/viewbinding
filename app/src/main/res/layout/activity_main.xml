@@ -6,20 +6,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainBindingActivity">
   <TextView
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:text="Enter your name"
       android:textSize="20sp"
-      android:id="@+id/tvName" />
+      android:id="@+id/tvName"/>
 
   <EditText
       android:id="@+id/etName"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:hint="Enter your name"
-      android:inputType="textPersonName|textCapWords" />
+      android:inputType="textPersonName|textCapWords"
+      android:textSize="30sp"/>
 
   <TextView
         android:layout_width="match_parent"
@@ -32,25 +33,27 @@
         android:layout_height="wrap_content"
         android:hint="Enter your roll.no"
         android:id="@+id/etRoll.no"
-        android:inputType="number"/>
+        android:inputType="number"
+        android:textSize="30sp"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Enter your height"
         android:textSize="20sp"
         android:id="@+id/tvHeight"
-        android:inputType="numberDecimal"/>
+        />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter your height"
         android:id="@+id/etHeight"
-        android:inputType="numberDecimal"/>
+        android:inputType="numberDecimal"
+        android:textSize="30sp"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="validate"
+        android:text="Validate"
         android:textSize="30sp"
         android:id="@+id/btnValidate"/>
 
-  </LinearLayout
+</LinearLayout>
